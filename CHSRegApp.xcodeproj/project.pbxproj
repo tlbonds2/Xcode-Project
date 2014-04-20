@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		543DABCB170914FD008FBD4D /* Button4.png in Resources */ = {isa = PBXBuildFile; fileRef = 543DABCA170914FD008FBD4D /* Button4.png */; };
+		543DABD1170923D8008FBD4D /* smallLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 543DABD0170923D8008FBD4D /* smallLogo.png */; };
+		543DABD517092BAE008FBD4D /* InfoImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 543DABD417092BAE008FBD4D /* InfoImage.png */; };
+		543DABD717092EF8008FBD4D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 543DABD617092EF8008FBD4D /* Default.png */; };
+		548465C317075790005C74B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548465C217075790005C74B6 /* UIKit.framework */; };
+		548465C517075790005C74B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548465C417075790005C74B6 /* Foundation.framework */; };
+		548465C717075790005C74B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548465C617075790005C74B6 /* CoreGraphics.framework */; };
+		548465CD17075790005C74B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 548465CB17075790005C74B6 /* InfoPlist.strings */; };
+		548465CF17075790005C74B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 548465CE17075790005C74B6 /* main.m */; };
+		548465D317075790005C74B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 548465D217075790005C74B6 /* AppDelegate.m */; };
+		548465D717075791005C74B6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 548465D617075791005C74B6 /* Default@2x.png */; };
+		548465D917075791005C74B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 548465D817075791005C74B6 /* Default-568h@2x.png */; };
+		548465DC17075791005C74B6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548465DA17075791005C74B6 /* MainStoryboard.storyboard */; };
+		548465DF17075791005C74B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548465DE17075791005C74B6 /* ViewController.m */; };
+		548465E717075791005C74B6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548465E617075791005C74B6 /* SenTestingKit.framework */; };
+		548465E817075791005C74B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548465C217075790005C74B6 /* UIKit.framework */; };
+		548465E917075791005C74B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548465C417075790005C74B6 /* Foundation.framework */; };
+		548465F117075791005C74B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 548465EF17075791005C74B6 /* InfoPlist.strings */; };
+		548465F417075791005C74B6 /* CHSRegAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 548465F317075791005C74B6 /* CHSRegAppTests.m */; };
+		5484660217075E2E005C74B6 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5484660117075E2E005C74B6 /* CollectionViewCell.m */; };
+		54905F57170A33AA004854FC /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54905F56170A33AA004854FC /* TableViewController.m */; };
+		54905F5B170A376A004854FC /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54905F5A170A376A004854FC /* TableViewCell.m */; };
+		54905F62170A4E4B004854FC /* LocationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54905F61170A4E4B004854FC /* LocationTableViewController.m */; };
+		54CAC3721707E24F0005BF2A /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CAC3711707E24F0005BF2A /* HeaderView.m */; };
+		54CAC3791707F02C0005BF2A /* FooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CAC3781707F02C0005BF2A /* FooterView.m */; };
+		54CAC37B1707F4C00005BF2A /* logo_CMCHealth.png in Resources */ = {isa = PBXBuildFile; fileRef = 54CAC37A1707F4C00005BF2A /* logo_CMCHealth.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		548465EA17075791005C74B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 548465B517075790005C74B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 548465BD17075790005C74B6;
+			remoteInfo = CHSRegApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		543DABCA170914FD008FBD4D /* Button4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button4.png; sourceTree = "<group>"; };
+		543DABD0170923D8008FBD4D /* smallLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallLogo.png; sourceTree = "<group>"; };
+		543DABD417092BAE008FBD4D /* InfoImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoImage.png; sourceTree = "<group>"; };
+		543DABD617092EF8008FBD4D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		548465BE17075790005C74B6 /* CHSRegApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHSRegApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		548465C217075790005C74B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		548465C417075790005C74B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		548465C617075790005C74B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		548465CA17075790005C74B6 /* CHSRegApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CHSRegApp-Info.plist"; sourceTree = "<group>"; };
+		548465CC17075790005C74B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		548465CE17075790005C74B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		548465D017075790005C74B6 /* CHSRegApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CHSRegApp-Prefix.pch"; sourceTree = "<group>"; };
+		548465D117075790005C74B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		548465D217075790005C74B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		548465D617075791005C74B6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		548465D817075791005C74B6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		548465DB17075791005C74B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		548465DD17075791005C74B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		548465DE17075791005C74B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		548465E517075791005C74B6 /* CHSRegAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHSRegAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		548465E617075791005C74B6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		548465EE17075791005C74B6 /* CHSRegAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CHSRegAppTests-Info.plist"; sourceTree = "<group>"; };
+		548465F017075791005C74B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		548465F217075791005C74B6 /* CHSRegAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHSRegAppTests.h; sourceTree = "<group>"; };
+		548465F317075791005C74B6 /* CHSRegAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHSRegAppTests.m; sourceTree = "<group>"; };
+		5484660017075E2E005C74B6 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		5484660117075E2E005C74B6 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		54905F55170A33AA004854FC /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		54905F56170A33AA004854FC /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		54905F59170A376A004854FC /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		54905F5A170A376A004854FC /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		54905F60170A4E4B004854FC /* LocationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTableViewController.h; sourceTree = "<group>"; };
+		54905F61170A4E4B004854FC /* LocationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTableViewController.m; sourceTree = "<group>"; };
+		54CAC3701707E24F0005BF2A /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		54CAC3711707E24F0005BF2A /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		54CAC3771707F02C0005BF2A /* FooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooterView.h; sourceTree = "<group>"; };
+		54CAC3781707F02C0005BF2A /* FooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooterView.m; sourceTree = "<group>"; };
+		54CAC37A1707F4C00005BF2A /* logo_CMCHealth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_CMCHealth.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		548465BB17075790005C74B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548465C317075790005C74B6 /* UIKit.framework in Frameworks */,
+				548465C517075790005C74B6 /* Foundation.framework in Frameworks */,
+				548465C717075790005C74B6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548465E117075791005C74B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548465E717075791005C74B6 /* SenTestingKit.framework in Frameworks */,
+				548465E817075791005C74B6 /* UIKit.framework in Frameworks */,
+				548465E917075791005C74B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		548465B317075790005C74B6 = {
+			isa = PBXGroup;
+			children = (
+				548465C817075790005C74B6 /* CHSRegApp */,
+				548465EC17075791005C74B6 /* CHSRegAppTests */,
+				548465C117075790005C74B6 /* Frameworks */,
+				548465BF17075790005C74B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		548465BF17075790005C74B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				548465BE17075790005C74B6 /* CHSRegApp.app */,
+				548465E517075791005C74B6 /* CHSRegAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		548465C117075790005C74B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				548465C217075790005C74B6 /* UIKit.framework */,
+				548465C417075790005C74B6 /* Foundation.framework */,
+				548465C617075790005C74B6 /* CoreGraphics.framework */,
+				548465E617075791005C74B6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		548465C817075790005C74B6 /* CHSRegApp */ = {
+			isa = PBXGroup;
+			children = (
+				548465D117075790005C74B6 /* AppDelegate.h */,
+				548465D217075790005C74B6 /* AppDelegate.m */,
+				548465DD17075791005C74B6 /* ViewController.h */,
+				548465DE17075791005C74B6 /* ViewController.m */,
+				5484660017075E2E005C74B6 /* CollectionViewCell.h */,
+				5484660117075E2E005C74B6 /* CollectionViewCell.m */,
+				54CAC3701707E24F0005BF2A /* HeaderView.h */,
+				54CAC3711707E24F0005BF2A /* HeaderView.m */,
+				54CAC3771707F02C0005BF2A /* FooterView.h */,
+				54CAC3781707F02C0005BF2A /* FooterView.m */,
+				54905F55170A33AA004854FC /* TableViewController.h */,
+				54905F56170A33AA004854FC /* TableViewController.m */,
+				54905F59170A376A004854FC /* TableViewCell.h */,
+				54905F5A170A376A004854FC /* TableViewCell.m */,
+				54905F60170A4E4B004854FC /* LocationTableViewController.h */,
+				54905F61170A4E4B004854FC /* LocationTableViewController.m */,
+				548465DA17075791005C74B6 /* MainStoryboard.storyboard */,
+				543DABD417092BAE008FBD4D /* InfoImage.png */,
+				543DABD0170923D8008FBD4D /* smallLogo.png */,
+				543DABCA170914FD008FBD4D /* Button4.png */,
+				54CAC37A1707F4C00005BF2A /* logo_CMCHealth.png */,
+				548465C917075790005C74B6 /* Supporting Files */,
+			);
+			path = CHSRegApp;
+			sourceTree = "<group>";
+		};
+		548465C917075790005C74B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				543DABD617092EF8008FBD4D /* Default.png */,
+				548465CA17075790005C74B6 /* CHSRegApp-Info.plist */,
+				548465CB17075790005C74B6 /* InfoPlist.strings */,
+				548465CE17075790005C74B6 /* main.m */,
+				548465D017075790005C74B6 /* CHSRegApp-Prefix.pch */,
+				548465D617075791005C74B6 /* Default@2x.png */,
+				548465D817075791005C74B6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		548465EC17075791005C74B6 /* CHSRegAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				548465F217075791005C74B6 /* CHSRegAppTests.h */,
+				548465F317075791005C74B6 /* CHSRegAppTests.m */,
+				548465ED17075791005C74B6 /* Supporting Files */,
+			);
+			path = CHSRegAppTests;
+			sourceTree = "<group>";
+		};
+		548465ED17075791005C74B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				548465EE17075791005C74B6 /* CHSRegAppTests-Info.plist */,
+				548465EF17075791005C74B6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		548465BD17075790005C74B6 /* CHSRegApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 548465F717075791005C74B6 /* Build configuration list for PBXNativeTarget "CHSRegApp" */;
+			buildPhases = (
+				548465BA17075790005C74B6 /* Sources */,
+				548465BB17075790005C74B6 /* Frameworks */,
+				548465BC17075790005C74B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHSRegApp;
+			productName = CHSRegApp;
+			productReference = 548465BE17075790005C74B6 /* CHSRegApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		548465E417075791005C74B6 /* CHSRegAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 548465FA17075791005C74B6 /* Build configuration list for PBXNativeTarget "CHSRegAppTests" */;
+			buildPhases = (
+				548465E017075791005C74B6 /* Sources */,
+				548465E117075791005C74B6 /* Frameworks */,
+				548465E217075791005C74B6 /* Resources */,
+				548465E317075791005C74B6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				548465EB17075791005C74B6 /* PBXTargetDependency */,
+			);
+			name = CHSRegAppTests;
+			productName = CHSRegAppTests;
+			productReference = 548465E517075791005C74B6 /* CHSRegAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		548465B517075790005C74B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Tom Bonds";
+			};
+			buildConfigurationList = 548465B817075790005C74B6 /* Build configuration list for PBXProject "CHSRegApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 548465B317075790005C74B6;
+			productRefGroup = 548465BF17075790005C74B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				548465BD17075790005C74B6 /* CHSRegApp */,
+				548465E417075791005C74B6 /* CHSRegAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		548465BC17075790005C74B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548465CD17075790005C74B6 /* InfoPlist.strings in Resources */,
+				548465D717075791005C74B6 /* Default@2x.png in Resources */,
+				548465D917075791005C74B6 /* Default-568h@2x.png in Resources */,
+				548465DC17075791005C74B6 /* MainStoryboard.storyboard in Resources */,
+				54CAC37B1707F4C00005BF2A /* logo_CMCHealth.png in Resources */,
+				543DABCB170914FD008FBD4D /* Button4.png in Resources */,
+				543DABD1170923D8008FBD4D /* smallLogo.png in Resources */,
+				543DABD517092BAE008FBD4D /* InfoImage.png in Resources */,
+				543DABD717092EF8008FBD4D /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548465E217075791005C74B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548465F117075791005C74B6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		548465E317075791005C74B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		548465BA17075790005C74B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548465CF17075790005C74B6 /* main.m in Sources */,
+				548465D317075790005C74B6 /* AppDelegate.m in Sources */,
+				548465DF17075791005C74B6 /* ViewController.m in Sources */,
+				5484660217075E2E005C74B6 /* CollectionViewCell.m in Sources */,
+				54CAC3721707E24F0005BF2A /* HeaderView.m in Sources */,
+				54CAC3791707F02C0005BF2A /* FooterView.m in Sources */,
+				54905F57170A33AA004854FC /* TableViewController.m in Sources */,
+				54905F5B170A376A004854FC /* TableViewCell.m in Sources */,
+				54905F62170A4E4B004854FC /* LocationTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548465E017075791005C74B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548465F417075791005C74B6 /* CHSRegAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		548465EB17075791005C74B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 548465BD17075790005C74B6 /* CHSRegApp */;
+			targetProxy = 548465EA17075791005C74B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		548465CB17075790005C74B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				548465CC17075790005C74B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		548465DA17075791005C74B6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				548465DB17075791005C74B6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		548465EF17075791005C74B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				548465F017075791005C74B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		548465F517075791005C74B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		548465F617075791005C74B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		548465F817075791005C74B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHSRegApp/CHSRegApp-Prefix.pch";
+				INFOPLIST_FILE = "CHSRegApp/CHSRegApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		548465F917075791005C74B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHSRegApp/CHSRegApp-Prefix.pch";
+				INFOPLIST_FILE = "CHSRegApp/CHSRegApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		548465FB17075791005C74B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CHSRegApp.app/CHSRegApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHSRegApp/CHSRegApp-Prefix.pch";
+				INFOPLIST_FILE = "CHSRegAppTests/CHSRegAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		548465FC17075791005C74B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CHSRegApp.app/CHSRegApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHSRegApp/CHSRegApp-Prefix.pch";
+				INFOPLIST_FILE = "CHSRegAppTests/CHSRegAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		548465B817075790005C74B6 /* Build configuration list for PBXProject "CHSRegApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548465F517075791005C74B6 /* Debug */,
+				548465F617075791005C74B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		548465F717075791005C74B6 /* Build configuration list for PBXNativeTarget "CHSRegApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548465F817075791005C74B6 /* Debug */,
+				548465F917075791005C74B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		548465FA17075791005C74B6 /* Build configuration list for PBXNativeTarget "CHSRegAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548465FB17075791005C74B6 /* Debug */,
+				548465FC17075791005C74B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 548465B517075790005C74B6 /* Project object */;
+}
